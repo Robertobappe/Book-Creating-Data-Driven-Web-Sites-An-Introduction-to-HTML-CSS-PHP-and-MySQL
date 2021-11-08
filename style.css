@@ -1,0 +1,77 @@
+* {
+box-sizing: border-box;
+}
+body, div {
+margin: 0;
+padding: 0;
+}
+#icon {
+position: absolute;
+height: 8em;
+width: 8em;
+background-color: #500;
+z-index: 4;
+}
+#icon img {
+margin: 0.5em;
+height: 7em;
+width: 7em;
+}
+#header {
+position: absolute;
+left: 0;
+top: 0;
+right: 0;
+height: 8em;
+color: white;
+text-align: center;
+font-family: cursive;
+background-color: #500;
+z-index: 3;
+}
+#header h1 {
+margin-bottom: 0;
+}
+#header h2 {
+position: relative;
+left: 0.5em;
+margin-top: 0;
+display: inline-block;
+}
+#links {
+position: absolute;
+top: 8em;
+left: 0;
+right: 0;
+height: 2em;
+color: #aaa;
+background-color: #500;
+z-index: 2;
+border-top: #999 solid 1px;
+border-bottom: #999 solid 1px;
+text-align: center;
+}
+#links * {
+display: inline-block;
+margin-top: 0;
+padding-top: 0.25em;
+}
+#links a {
+margin-left: 2em;
+color: white;
+text-decoration: none;
+height: 100%;
+}
+#links p {
+margin-left: 5em;
+}
+#links a:hover {
+background-color: white;
+color: #060;
+}
+#main {
+margin-left: auto;
+margin-right: auto;
+max-width: 900px;
+padding-top: 10.5em;
+}
